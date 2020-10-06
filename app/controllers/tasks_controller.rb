@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
-  before_action
+  validates :title, presence: true
 
   # read all tasks
   def index
