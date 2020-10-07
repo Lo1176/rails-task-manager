@@ -30,6 +30,5 @@ class TasksController < ApplicationController
 
   private
 
-  end
 
 end
