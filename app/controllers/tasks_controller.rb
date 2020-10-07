@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
-  validates :title, presence: true
+  # validates :title, presence: true
 
   # read all tasks
   def index
@@ -26,6 +26,10 @@ class TasksController < ApplicationController
   end
 
   def destroy
+  end
+
+  private
+
   end
 
 end
